@@ -26,9 +26,13 @@ namespace wk
 	template<typename T>
 	void WankelApp<T>::Run()
 	{
+		mWindow.Create("Game JM", 1000, 800);
 		while (mShouldContinue)
 		{
 			OnUpdate();
+
+			mWindow.SwapBuffers();
+			mWindow.PollEvents();
 		}
 	}
 
