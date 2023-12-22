@@ -1,0 +1,15 @@
+ Unique Features include:
+
+  * Movable player character: unit image displayed changes when player direction moves (going left looks different than going right, etc). Player model defaults to forwards/upwards position when no input.
+
+  * Score counter: "Score" updates when player reaches top of screen. When 3 points, player gets win screen. Doesnt show current amount of points.
+
+  * Enemy: Enemy moves left and right across screen and then down on loop. Every time player gets a point, enemy speed increases.
+
+  * Damage: If player collides with enemy, explosion displayed, and position restarts. Life counter decremented.
+
+  * Game Over: If player takes damage and runs out of life counter, game over screen displayed.
+
+To play the game:
+  Use the arrow keys to move your character up and pass the enemy. When you reach the top of the screen you gain a point and start next round. Do this 3 times and you win. Get hit by enemy 3 times and you lose.
+  Enjoy my game!
